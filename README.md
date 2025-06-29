@@ -1,8 +1,7 @@
 # 🎙️ Classification of Arabic /r/ Sound Pronunciation Disorders
 
 <div align="center">
-  <img src="assets/system_architecture.png" width="600" alt="System Architecture">
-  <br>
+  
   <img src="View%20Result.gif" width="800" alt="Demo Animation">
 </div>
 
