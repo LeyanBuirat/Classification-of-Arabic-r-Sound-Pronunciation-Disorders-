@@ -15,11 +15,7 @@
 - [Installation](#-installation)
 - [How to Run](#-how-to-run)
 - [Dataset](#-dataset)
-  
-## Team Members  
-- [ Leyan Buirat ] (1211439)
-- [ Noor Shamali ] (1200016)  
-- [Dana Ghnimat ] (1200031)  
+
 ## 🌟 Project Overview
 نظام ذكاء اصطناعي لتصنيف اضطرابات نطق حرف الراء العربي (/r/) في بداية الكلمات إلى 5 فئات:
 
@@ -35,10 +31,9 @@
 </div>
 
 ## 👥 Team Members
-- [ليان بعيرات](https://github.com/layanbuirat) (1211439)
-- [نور شملي](https://github.com/nourshamali) (1200016)
-- [دانا غنيمات](https://github.com/danaghnimat) (1200031)
-
+- [ Leyan Buirat ] (https://github.com/layanbuirat)(1211439)
+- [ Noor Shamali ] (1200016)  
+- [Dana Ghnimat ] (1200031)  
 ## 🔬 Methodology
 ### 📊 Feature Extraction
 - معاملات ميل-التردد (MFCCs)
