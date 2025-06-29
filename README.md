@@ -1,55 +1,76 @@
-# Classification of Arabic /r/ Sound Pronunciation Disorders
+# 🎙️ Classification of Arabic /r/ Sound Pronunciation Disorders
 
-## Project Description  
-This project aims to build a system capable of classifying pronunciation disorders of the Arabic /r/ sound (IPA: [r]) when it appears at the beginning of words. The disorders are categorized into four classes:  
-1. **Distortion**  
-2. **Deletion**  
-3. **Substitution with /gh/**  
-4. **Substitution with /l/**  
-5. **Normal (correct) pronunciation**  
+<div align="center">
+  <img src="assets/system_architecture.png" width="600" alt="System Architecture">
+  <br>
+  <img src="View%20Result.gif" width="800" alt="Demo Animation">
+</div>
 
-The project leverages speech signal processing and machine learning techniques to achieve this goal.  
-
+## 📝 Table of Contents
+- [Project Overview](#-project-overview)
+- [Demo](#-demo)
+- [Team Members](#-team-members)
+- [Methodology](#-methodology)
+- [Results](#-results)
+- [Installation](#-installation)
+- [How to Run](#-how-to-run)
+- [Dataset](#-dataset)
+  
 ## Team Members  
 - [ Leyan Buirat ] (1211439)
 - [ Noor Shamali ] (1200016)  
 - [Dana Ghnimat ] (1200031)  
-- ## 🎥 Demo
+## 🌟 Project Overview
+نظام ذكاء اصطناعي لتصنيف اضطرابات نطق حرف الراء العربي (/r/) في بداية الكلمات إلى 5 فئات:
+
+1. **Distortion** (تشويه)
+2. **Deletion** (حذف)
+3. **Substitution with /gh/** (استبدال بالغين)
+4. **Substitution with /l/** (استبدال باللام)
+5. **Normal** (النطق الصحيح)
+
+## 🎥 Demo
 <div align="center">
-  <img src="C:\Users\hp\Desktop\فصل ثني سنه رابعه\spoken project\View Result.gif" width="1000" alt="System Demo">
+  <img src="View%20Result.gif" width="800" alt="System Demo">
 </div>
 
-## Requirements  
-- Python 3.x  
-- Required libraries:  
-  - `librosa`  
-  - `scikit-learn`  
-  - `numpy`  
-  - `matplotlib`  
-  - `pandas`  
+## 👥 Team Members
+- [ليان بعيرات](https://github.com/layanbuirat) (1211439)
+- [نور شملي](https://github.com/nourshamali) (1200016)
+- [دانا غنيمات](https://github.com/danaghnimat) (1200031)
 
-## Implementation Steps  
-1. **Download the Dataset**:  
-   The audio dataset is available via [Google Drive](https://drive.google.com/drive/folders/13PPVmCAlbzGkzOvQxaB3NTcfUkG6GB?usp=sharing).  
+## 🔬 Methodology
+### 📊 Feature Extraction
+- معاملات ميل-التردد (MFCCs)
+- معاملات دلتا ودلتا-دلتا
+- معالجة الإشارة الصوتية باستخدام `librosa`
 
-2. **Feature Extraction**:  
-   Mel-Frequency Cepstral Coefficients (MFCCs) along with delta and delta-delta coefficients are extracted using `librosa` to capture spectral and temporal features.  
+### 🤖 Models
+- Gaussian Mixture Models (GMM)
+- Support Vector Machines (SVM)
+- Random Forest
 
-3. **Model Training**:  
-   - **Gaussian Mixture Models (GMMs)** and **Support Vector Machines (SVMs)** are trained for classification.  
-   - Hyperparameters are tuned for optimal performance.  
+## 📈 Results
+| Model | Accuracy | Precision | Recall |
+|-------|----------|-----------|--------|
+| SVM (RBF) | 72.4% | 0.71 | 0.72 |
+| GMM | 68.2% | 0.67 | 0.68 |
 
-4. **Evaluation**:  
-   Performance metrics include:  
-   - Accuracy  
-   - Precision, Recall, F1-Score  
-   - Confusion Matrix  
+## 💻 Installation
+```bash
+git clone https://github.com/layanbuirat/Classification-of-Arabic-r-Sound-Pronunciation-Disorders.git
+cd Classification-of-Arabic-r-Sound-Pronunciation-Disorders
+pip install -r requirements.txt
 
-## Results  
-- The best-performing model achieved **72.4% accuracy** using an SVM with an RBF kernel.  
-- Detailed results are available in the project report.  
+🚀 How to Run
+jupyter notebook Spoken_Course_project.ipynb
 
-## How to Run  
-1. Clone the repository:  
-   ```bash  
-   git clone [repository-link]  
+📁 Dataset
+Download Dataset
+
+📚 Documentation
+Full Report
+
+Presentation Slides
+
+<p align="center"> <img src="https://img.shields.io/badge/Made%20with-Python-blue?logo=python"> <img src="https://img.shields.io/badge/License-MIT-green"> </p> ```
