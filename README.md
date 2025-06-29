@@ -11,9 +11,13 @@ This project aims to build a system capable of classifying pronunciation disorde
 The project leverages speech signal processing and machine learning techniques to achieve this goal.  
 
 ## Team Members  
+- [ Leyan Buirat ] (1211439)
 - [ Noor Shamali ] (1200016)  
 - [Dana Ghnimat ] (1200031)  
-- [ Leyan Buirat ] (1211439)  
+- ## 🎥 Demo
+<div align="center">
+  <img src="C:\Users\hp\Desktop\فصل ثني سنه رابعه\spoken project\View Result.gif" width="1000" alt="System Demo">
+</div>
 
 ## Requirements  
 - Python 3.x  
